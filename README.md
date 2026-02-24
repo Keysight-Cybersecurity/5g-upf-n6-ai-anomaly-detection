@@ -1,13 +1,13 @@
 # 5g-upf-n6-ai-anomaly-detection
 AI-based detection of DoS and DDoS attacks on the 5G UPF N6 interface using PCAP data and CyPerf traffic. Focus on model training, evaluation, and deployment for telecom security use cases.
 
-Title
+# Title
 5G UPF N6 AI Anomaly Detection
 
-Goal
+# Goal
 Build an AI-based system to detect DoS and DDoS traffic on the 5G UPF N6 interface using PCAP data and CyPerf traffic.
 
-Scope
+# Scope
 • 5G core security
 • UPF N6 interface
 • DoS and DDoS detection
@@ -15,12 +15,12 @@ Scope
 • AI model training and testing
 • Metrics: precision, recall, F1, ROC-AUC
 
-Data
+# Data
 • PCAP files from CyPerf
 • Labeled normal and attack traffic
 • Flow features from PCAP
 
-Pipeline
+# Pipeline
 • Capture traffic
 • Parse PCAP
 • Extract features
@@ -28,7 +28,7 @@ Pipeline
 • Test model
 • Report results
 
-Tools
+# Tools
 • Python 3.10+
 • scikit-learn
 • pandas
@@ -37,7 +37,7 @@ Tools
 • Wireshark
 • CyPerf
 
-Structure
+# Structure
 • data/raw
 • data/processed
 • src/pcap
@@ -46,13 +46,13 @@ Structure
 • src/eval
 • reports
 
-Rules
+# Rules
 • No sensitive data
 • No Keysight internal files
 • Commit clean code only
 • Use small test PCAPs only
 
-Next step
+# Next step
 • Add sample PCAP
 • Build feature extractor
 • Train baseline model
